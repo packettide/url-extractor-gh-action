@@ -5,7 +5,7 @@ async function run() {
   try {
     const body = core.getInput('body')
 
-    const pattern = core.getInput('pattern').replaceAll('/', '\\/')
+    const pattern = core.getInput('pattern').replace(/\//g, '\\/')
 
     const url = body.match('/(' + pattern + '[^\\s]+)/')
     core.info('/(' + pattern + '[^\\s]+)/');
