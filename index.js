@@ -9,6 +9,8 @@ async function run() {
 
     const url = body.match('/(' + pattern + '[^\\s]+)/')
 
+    core.info(url)
+
     if (url) {
       core.setOutput('url', url[0])
     } else {
