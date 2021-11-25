@@ -1685,7 +1685,7 @@ async function run() {
 
     const pattern = core.getInput('pattern').replace(/\//g, '\\/')
 
-    const regex = new RexExp('(' + pattern + '[^\\s]+)');
+    const regex = new RegExp('(' + pattern + '[^\\s]+)');
     const url = body.match(regex)
     core.info(regex);
     core.info(url)
