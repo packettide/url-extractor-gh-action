@@ -1,7 +1,7 @@
 {
-  "name": "javascript-action",
+  "name": "url-extractor-gh-action",
   "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "description": "URL Extractor GitHub Action",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "git+https://github.com/packettide/url-extractor-gh-action.git"
   },
   "keywords": [
     "GitHub",
     "Actions",
     "JavaScript"
   ],
-  "author": "",
+  "author": "PacketTide",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
+    "url": "https://github.com/packettide/url-extractor-gh-action/issues"
   },
-  "homepage": "https://github.com/actions/javascript-action#readme",
+  "homepage": "https://github.com/packettide/url-extractor-gh-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.5"
   },
